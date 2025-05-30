@@ -1,0 +1,40 @@
+.about {
+    margin-bottom: 150px;
+  }
+  
+  .about-container {
+  }
+  
+  .about-name {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .about-text {
+    margin: 30px 0;
+    max-width: 1050px;
+  }
+  
+  .about-text p {
+    font-size: 45px;
+    line-height: 61px;
+  }
+  
+  .about-link {
+    display: block;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 40px;
+    width: 255px;
+    height: 67px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  
+  .about-link:hover {
+    background-color: var(--color-grey2);
+  }
