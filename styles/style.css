@@ -1,0 +1,45 @@
+@import url(./hello.css);
+@import url(./about.css);
+
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+:root {
+    --color-grey--background: #f5f5f5;
+    --color-grey2: #4f4f4f;
+    --color-red: #ad1818;
+    --color-white: #ffffff;
+    --color-black--text: #121212;
+  }
+html {
+  scroll-behavior: smooth; /* Включаем плавную прокрутку */
+}
+
+body {
+  width: 100%;
+  font-family: 'Manrope', sans-serif;
+  color: var(--color-black--text);
+  background-color: var(--color-white);
+}
+
+* {
+  letter-spacing: -0.03em;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

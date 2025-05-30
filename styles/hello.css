@@ -1,0 +1,30 @@
+.hello {
+  padding-top: 70px;
+  margin-bottom: 150px;
+}
+
+.hello-name {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 30px;
+  max-width: 956px;
+}
+
+.hello-background {
+  position: relative;
+  width: 1150px;
+  height: 500px;
+  background-image: url(../resources/img/hello-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: var(--color-white);
+}
+
+.hello-background__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  color: var(--color-white);
+  max-width: 430px;
+  font-size: 20px;
+}
