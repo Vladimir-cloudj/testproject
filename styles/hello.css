@@ -3,10 +3,6 @@
   margin-bottom: 150px;
 }
 
-.hello__container {
-  max-width: 1180px;
-  margin: 0 auto;
-}
 
 .hello__name {
   font-size: 60px;
