@@ -1,18 +1,24 @@
 .hello {
-  padding-top: 70px;
+  margin-top: 70px;
   margin-bottom: 150px;
 }
 
-.hello-name {
+.hello__container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.hello__name {
   font-size: 60px;
   line-height: 60px;
   margin-bottom: 30px;
   max-width: 956px;
 }
 
-.hello-background {
+.hello__background {
   position: relative;
-  width: 1150px;
+  width: 100%;
+  max-width: 1150px;
   height: 500px;
   background-image: url(../resources/img/hello-bg.jpg);
   background-size: contain;
@@ -20,7 +26,7 @@
   color: var(--color-white);
 }
 
-.hello-background__text {
+.hello__text {
   position: absolute;
   left: 40px;
   bottom: 40px;
