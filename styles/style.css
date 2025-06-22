@@ -1,3 +1,4 @@
+@import url(./header.css);
 @import url(./hello.css);
 @import url(./about.css);
 @import url(./projects.css);
@@ -6,14 +7,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
 :root {
-    --color-grey--background: #f5f5f5;
-    --color-grey2: #4f4f4f;
-    --color-red: #ad1818;
-    --color-white: #ffffff;
-    --color-black--text: #121212;
-  }
+  --color-grey--background: #f5f5f5; 
+  --color-grey2: #4f4f4f;
+  --color-red: #ad1818;
+  --color-white: #ffffff;
+  --color-black--text: #121212;
+}
+
 html {
-  scroll-behavior: smooth; /* Включаем плавную прокрутку */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -33,14 +35,44 @@ body {
   margin: 0 auto;
 }
 
-h2 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  text-transform: uppercase;
-}
-
-button {
+.btn {
   font-family: inherit;
   cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn_theme_red {
+  display: inline-block;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+.btn_theme_red:hover {
+  background-color: var(--color-grey2);
+}
+
+.btn_theme_white {
+  background-color: var(--color-white);
+  color: var(--color-red);
+  /* border: 1px solid var(--color-red); */
+  /* padding: 15px 30px; */
+  font-size: 20px;
+}
+
+.btn_size_full {
+  border: 1px solid var(--color-red);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 56px 0;
+  font-size: 30px;
+}
+
+.btn_size_full:hover {
+  background-color: var(--color-red);
+  color: var(--color-white);
 }
