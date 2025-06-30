@@ -1,0 +1,26 @@
+.fullscreen {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url(/resources/img/fullscreen/fullscreen_background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.fullscreen-container {
+  background-color: transparent;
+  position: relative;
+  height: 717px;
+  width: 1150px;
+}
+
+.fullscreen-text {
+  position: absolute;
+  width: 443px;
+  left: 0;
+  bottom: 60px;
+  font-size: 30px;
+  line-height: 41px;
+  color: var(--color-white);
+}
