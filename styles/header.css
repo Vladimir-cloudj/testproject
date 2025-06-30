@@ -35,6 +35,10 @@
   color: inherit;
 }
 
+.nav-list__link:hover {
+  color: var(--color-grey2);
+}
+
 .nav-list__link::after {
   content: "";
   position: absolute;
