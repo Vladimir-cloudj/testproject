@@ -4,6 +4,7 @@
 @import url(./projects.css);
 @import url(./services.css);
 @import url(./fullscreen.css);
+@import url(./contacts.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
@@ -77,3 +78,4 @@ body {
   background-color: var(--color-red);
   color: var(--color-white);
 }
+
