@@ -18,7 +18,7 @@
 
 .nav-list {
   display: flex;
-  gap: 60px;
+  gap: 61px;
 }
 
 .nav-list__item {
@@ -33,6 +33,10 @@
   padding-bottom: 4px;
   text-decoration: none;
   color: inherit;
+}
+
+.nav-list__link:hover {
+  color: var(--color-grey2);
 }
 
 .nav-list__link::after {
