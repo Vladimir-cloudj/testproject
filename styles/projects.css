@@ -6,7 +6,7 @@
 .projects__title {
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
   color: var(--color-black--text);
 }
 
@@ -34,7 +34,7 @@
 
 .project-card__content {
   margin-top: 15px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .project-card__content h3 {
@@ -44,5 +44,5 @@
 }
 
 .projects__more {
-  margin-top: 60px;
+  margin-top: 91px;
 }
