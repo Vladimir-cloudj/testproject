@@ -43,6 +43,10 @@
   margin: 0 0 15px 0;
 }
 
+.project-card__content button {
+  /* letter-spacing: -0.03em; */
+}
+
 .projects__more {
   margin-top: 91px;
 }
