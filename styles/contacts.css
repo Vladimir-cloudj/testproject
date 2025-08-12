@@ -28,7 +28,7 @@
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
+  top: 1px;
   width: 13px;
   height: 22px;
   background-image: url(../resources/img/contacts/telephone.png);
