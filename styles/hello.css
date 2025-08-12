@@ -1,12 +1,12 @@
 .hello {
-  margin-top: 70px;
+  margin-top: 67px;
   margin-bottom: 150px;
 }
 
 
 .hello__name {
   font-size: 60px;
-  line-height: 58px;
+  line-height: 60px;
   margin-bottom: 30px;
   max-width: 956px;
 }
@@ -25,7 +25,7 @@
 .hello__text {
   position: absolute;
   left: 40px;
-  bottom: 40px;
+  bottom: 42px;
   color: var(--color-white);
   max-width: 430px;
   font-size: 20px;
