@@ -82,3 +82,6 @@ body {
   color: var(--color-white);
 }
 
+.none {
+  display: none;
+}
