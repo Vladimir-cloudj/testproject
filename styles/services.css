@@ -44,3 +44,21 @@
   padding-top: 15px;
   margin: 0;
 }
+
+
+@media (max-width: 1199px) {
+  .services__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .service-card {
+    max-width: calc(50% - 32px);
+  }
+  .service-card__image {
+    
+  }
+}
+
+@media (max-width: 767px) {
+
+}

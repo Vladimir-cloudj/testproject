@@ -85,3 +85,36 @@ body {
 .none {
   display: none;
 }
+
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+    padding: 0 17px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+  .btn_theme_red {
+    padding: 14.5px 27px;
+    font-size: 16px;
+    line-height: 22px;
+    width: 194px;
+  }
+  .btn_theme_white {
+    font-size: 16px;
+    line-height: 100%;
+  }
+  .btn_size_full {
+    font-size: 22px;
+    line-height: 100%;
+  }
+}
+
+
+
+

@@ -22,3 +22,27 @@
 .about__actions {
   margin-top: 30px;
 }
+
+@media (max-width: 1199px) {
+  .about {
+    margin-bottom: 120px;
+  }
+  .about__title {
+    font-size: 18px;
+  }
+  .about__text p {
+    font-size: 35px;
+    line-height: 48px;
+    max-width: 690px;
+  }
+}
+
+@media (max-width: 767px) { 
+  .about__title {
+    font-size: 14px;
+  }
+  .about__text p {
+    font-size: 22px;
+    line-height: 125%;
+  }
+}
