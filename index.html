@@ -13,7 +13,7 @@
 <body>
 
   <!-- header -->
-  <header class="header ">
+  <header class="header none">
     <div class="container header-container">
       <div class="header-logo">
         <a href="#" class="logo-link">
@@ -41,7 +41,7 @@
   <!-- /header -->
   <main>
     <!-- HELLO -->
-    <section class="hello ">
+    <section class="hello none">
       <div class="container hello__container">
         <h1 class="hello__name">
           Современные и стильные интерьеры для комфортной жизни
@@ -57,7 +57,7 @@
     <!-- /HELLO -->
 
     <!-- ABOUT -->
-    <section class="about " id="about">
+    <section class="about none" id="about">
       <div class="container about__container">
         <h2 class="about__title">О НАС</h2>
         <div class="about__text">
@@ -78,7 +78,7 @@
 
 
     <!-- PROJECTS -->
-    <section class="projects " id="projects">
+    <section class="projects none" id="projects">
       <div class="container projects__container">
         <h2 class="projects__title">ПРОЕКТЫ</h2>
         <div class="projects__list">
@@ -158,40 +158,141 @@
 
           <div class="service-card service-card_theme_planning">
             <div class="service-card__image">
-              <img src="resources/img/services/planning_solution.jpg" alt="Планировочное решение" />
+              <picture>
+                <source 
+                media="(max-width:500px)"
+                srcset="resources/img/services/planning_solution_mobile.jpg"
+                />
+                <source 
+                media="(max-width:1199px)"
+                srcset="resources/img/services/planning_solution_tablet.jpg"
+                />
+                <img src="resources/img/services/planning_solution_full.jpg" alt="Планировочное решение" />
+              </picture>
+              <p class="service-card__text">от 2500₽/м²</p>
             </div>
-            <h3>Планировочное решение — от 2500₽/м²</h3>
+            <h3>Планировочное решение</h3>
           </div>
 
           <div class="service-card service-card_theme_design">
             <div class="service-card__image">
-              <img src="resources/img/services/design_project.jpg" alt="Дизайн-проект" />
+              <picture>
+                <source 
+                media="(max-width:500px)"
+                srcset="resources/img/services/design_project_mobile.jpg"
+                />
+                <source 
+                media="(max-width:1199px)"
+                srcset="resources/img/services/design_project_tablet.jpg"
+                />
+                <img src="resources/img/services/design_project_full.jpg" alt="Дизайн-проект" />
+              </picture>
+              <p class="service-card__text">от 3000₽/м²</p>
             </div>
-            <h3>Дизайн-проект — от 3000₽/м²</h3>
+            <h3>Дизайн-проект</h3>
           </div>
 
           <div class="service-card service-card_theme_control">
             <div class="service-card__image">
-              <img src="resources/img/services/author_control.jpg" alt="Авторский надзор" />
+              <picture>
+                <source 
+                media="(max-width:500px)"
+                srcset="resources/img/services/author_control_mobile.jpg"
+                />
+                <source 
+                media="(max-width:1199px)"
+                srcset="resources/img/services/author_control_tablet.jpg"
+                />
+                <img src="resources/img/services/author_control_full.jpg" alt="Авторский надзор" />
+              </picture>
+              <p class="service-card__text">от 30 000₽/мес</p>
             </div>
-            <h3>Авторский надзор — от 30 000₽ в месяц</h3>
+            <h3>Авторский надзор</h3>
           </div>
 
           <div class="service-card service-card_theme_completation">
             <div class="service-card__image">
-              <img src="resources/img/services/completation.jpg" alt="Комплектация" />
+              <picture>
+                  <source 
+                  media="(max-width:500px)"
+                  srcset="resources/img/services/completation_mobile.jpg"
+                  />
+                  <source 
+                  media="(max-width:1199px)"
+                  srcset="resources/img/services/completation_tablet.jpg"
+                  />
+                  <img src="resources/img/services/completation_full.jpg" alt="Комплектация" />
+              </picture>
+              
+              <p class="service-card__text">5% от стоимости</p>
             </div>
-            <h3>Комплектация — 5% от стоимости спецификации</h3>
+            <h3>Комплектация</h3>
           </div>
 
+        </div>
+        <div class="services__more">
+          <a class="btn btn_theme_red btn_size_full ">Заказать услугу</a>
         </div>
       </div>
     </section>
     <!-- /SERVICES -->
 
+    <!-- REVIEWS -->
+    <section class="reviews none" id="services">
+      <div class="container reviews__container">
+          <h2 class="reviews__title">ОТЗЫВЫ</h2>
+            <ul class="reviews__list">
+                <li class="review-card card">
+                  <h4 class="card-author">
+                    Ксения, проект 65 кв.м.
+                  </h4>
+                    <div class="card-content">
+                      <p>
+                        Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше!
+                      </p>
+                      <br>
+                      <p>
+                        Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!
+                      </p>
+                    </div>
+                </li>
+                <li class="review-card card">
+                  <h4 class="card-author">
+                    Регина, проект 89 кв.м.
+                  </h4>
+                    <div class="card-content">
+                      <p>
+                        Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!
+                      </p>
+                      <br>
+                      <p>
+                        Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
+                      </p>
+                    </div>
+                </li>
+                <li class="review-card card">
+                  <h4 class="card-author">
+                    Яна, проект 120 кв.м.
+                  </h4>
+                    <div class="card-content">
+                      <p>
+                        Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим.
+                      </p>
+                      <br>
+                      <p>
+                        В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
+                      </p>
+                    </div>
+                </li>
+            </ul>
+      </div>
+    </section>
+    <!-- /REVIEWS -->
+
     <!-- FULLSCREEN -->
-    <section class="fullscreen none" id="">
+    <section class="fullscreen " id="">
       <div class="container fullscreen-container">
+        <h2 class="fullscreen__title">галерея проектов</h2>
         <h3 class="fullscreen-text">
           Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
         </h3>
